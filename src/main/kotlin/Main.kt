@@ -1,5 +1,6 @@
 package com.inar
 
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
@@ -13,4 +14,21 @@ fun main() {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
         println("i = $i")
     }
+
+    val arr = mutableListOf(1, 23)
+    val deque = ArrayDeque<Int>()
+    val javaDeque = java.util.ArrayDeque<Int>();
+
+    val mutList = mutableListOf<String>()
+    val list = listOf(1, 2, 3)
+
+    val f = mutList.count();
+
+    val m = mutableMapOf<Int, String>()
+
+    val arr2 = intArrayOf(1,2,3)
+    val s = "dsaf";
+    s.count();
+    val seq = sequence { yield(1) }
+
 }
